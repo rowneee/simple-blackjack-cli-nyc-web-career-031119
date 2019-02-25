@@ -57,7 +57,7 @@ def runner
   prompt_user
   while card_total <= 21
     card_total = hit?(card_total)
-    
+    card_total = 
   
 end
     

@@ -53,8 +53,8 @@ end
 
 def runner
   welcome 
-  deal_card
-  deal_card
+  initial_round
+  
   
 end
     

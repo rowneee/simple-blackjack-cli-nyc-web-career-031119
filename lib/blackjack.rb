@@ -3,8 +3,8 @@ def welcome
 end
 
 def deal_card(card)
-  for counter in 1..11 do
-    puts "#{card}"
+  1..11
+
 end
 
 def display_card_total(card_total)

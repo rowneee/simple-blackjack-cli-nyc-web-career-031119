@@ -32,7 +32,9 @@ end
 def hit?
   prompt_user
   input = get_user_input
-  while  input == 'h'
+  while input != 'h'
+  
+  
     card_total += deal_card
   end  
   card_total

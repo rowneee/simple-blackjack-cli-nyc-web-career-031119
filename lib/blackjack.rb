@@ -2,9 +2,9 @@ def welcome
   puts "Welcome to the Blackjack Table"
 end
 
-def deal_card
+def deal_card(card)
   for counter in 1..11 do
-    
+    puts card
 end
 
 def display_card_total

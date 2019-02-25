@@ -25,7 +25,7 @@ end
 def initial_round
   first_deal = deal_card
   second_deal = deal_card
-  while display_card_total 
+  card_total = first_deal + second_deal 
   puts 
   return 
 end

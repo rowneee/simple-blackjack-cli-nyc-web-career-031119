@@ -55,7 +55,7 @@ def runner
   welcome 
   initial_round
   prompt_user
-  if hit? 
+   hit? 
   
 end
     

@@ -28,7 +28,9 @@ end
 def initial_round
   deal_card
   deal_card
-  while display_card_total
+  while display_card_total 
+  puts 
+  return 
 end
 
 def hit?

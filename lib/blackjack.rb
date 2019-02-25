@@ -29,7 +29,7 @@ def initial_round
   puts display_card_total
 end
 
-def hit?
+def hit?(card_total)
   prompt_user
   input = get_user_input
   while input != 'h' && input != 's'

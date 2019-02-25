@@ -4,7 +4,7 @@ end
 
 def deal_card(card)
   for counter in 1..11 do
-    puts card
+    puts "#{card}"
 end
 
 def display_card_total

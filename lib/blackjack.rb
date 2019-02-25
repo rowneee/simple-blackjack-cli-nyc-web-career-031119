@@ -30,7 +30,8 @@ def initial_round
 end
 
 def hit?
-  # code hit? here
+  display_card_total(card_total)
+  
 end
 
 def invalid_command

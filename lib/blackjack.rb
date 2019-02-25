@@ -3,7 +3,8 @@ def welcome
 end
 
 def deal_card
-  for counter 
+  for counter in 1..11 do
+    
 end
 
 def display_card_total

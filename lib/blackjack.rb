@@ -55,7 +55,8 @@ def runner
   welcome 
   initial_round
   prompt_user
-  until  hit? 
+  while card_total <= 21
+  
   
 end
     

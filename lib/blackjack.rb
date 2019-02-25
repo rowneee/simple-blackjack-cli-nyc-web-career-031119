@@ -30,7 +30,7 @@ def initial_round
 end
 
 def hit?
-  display_card_total(card_total)
+  
   
 end
 
